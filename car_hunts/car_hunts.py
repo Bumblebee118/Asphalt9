@@ -1,3 +1,6 @@
+"""This module analyzes the past car hunts and tries to give a prediction for future car hunts.
+"""
+
 from datetime import datetime, timedelta
 from dataclasses import dataclass
 
@@ -6,6 +9,8 @@ DATE_FORMAT = "%d.%m.%Y"
 
 @dataclass
 class Car:
+    """Simple dataclass to bundle data such as a cars name, dates of its hunts.
+    """
     name: str
     dates: [datetime]
     next_hunt: datetime = datetime.today()
@@ -13,6 +18,8 @@ class Car:
 
 
 def main():
+    """Main method that calls all the sub-methods.
+    """
     dictionary = {}
     parse_input(dictionary)
 
@@ -24,7 +31,12 @@ def main():
 
 
 def parse_input(dictionary):
-    with open("car_hunts.csv", "r") as csv_file:
+    """Parses the csv file and creates an entry in the dictionary for every car that had a hunt
+    with the accordign Car object as a value.
+
+    :param dictionary: The dictionary to collect the cars.
+    """
+    with open("car_hunts.csv", "r", encoding="utf-8") as csv_file:
         for line in csv_file:
             elements = list(filter(lambda x: x != "", line.strip('\n').split(";")))
             date = datetime.strptime(elements[0], DATE_FORMAT)
@@ -36,7 +48,15 @@ def parse_input(dictionary):
 
 
 def sort_data(cars_due, cars_once, cars_upcoming, dictionary):
-    for car_name, car in sorted(dictionary.items()):
+    """Sorts the cars into the three categories.
+
+    :param cars_due: List of all cars that should have had a hunt already.
+    :param cars_once: List of all cars that had only one hunt.
+    :param cars_upcoming: List of all cars that will probably have a hunt in the future and the
+    approximate date can be calculated.
+    :param dictionary: The dictionary containing all the cars.
+    """
+    for _, car in sorted(dictionary.items()):
         if len(car.dates) > 1:
             durations = 0
             for i in range(len(car.dates) - 1):
@@ -55,18 +75,25 @@ def sort_data(cars_due, cars_once, cars_upcoming, dictionary):
 
 
 def create_output(cars_due, cars_once, cars_upcoming):
+    """Prints the different categories in a tabular way.
+
+    :param cars_due: List of all cars that should have had a hunt already.
+    :param cars_once: List of all cars that had only one hunt.
+    :param cars_upcoming: List of all cars that will probably have a hunt in the future and the
+    approximate date can be calculated.
+    """
     print("----------Appeared once----------")
     print(f"{'Car Name' : <30}{'' : ^10}{'Date' : >15}")
     for car in sorted(cars_once, key=lambda x: x.dates[0]):
         print(f"{car.name : <30}{'': ^10}{car.dates[0].strftime(DATE_FORMAT) : >15}")
-
     print()
+
     print("----------Upcoming----------")
     print(f"{'Car Name' : <30}{'AVG Weeks' : ^10}{'Next Date' : >15}")
     for car in sorted(cars_upcoming, key=lambda x: x.next_hunt):
         print(f"{car.name : <30}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
-
     print()
+
     print("----------Due----------")
     print(f"{'Car Name' : <30}{'AVG Weeks' : ^10}{'Next Date' : >15}")
     for car in sorted(cars_due, key=lambda x: x.next_hunt):
