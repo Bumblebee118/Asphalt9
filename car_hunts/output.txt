@@ -5,13 +5,13 @@ Ferrari Roma                                 14.05.2021
 Apex AP-0                                    17.06.2021
 Aston Martin V12 Speedster                   30.07.2021
 Acura 2017 NSX GT3 EVO                       05.08.2021
-Ferrari 488 GTBB                             19.08.2021
 Ford GT MK II                                02.09.2021
 Porsche Taycan Turbo S                       23.09.2021
 Drako GTE                                    21.10.2021
 Nio EP9                                      21.10.2021
 ATS Automobili Corsa RRTurbo                 11.11.2021
 Chevrolet Corvette C7.R                      02.12.2021
+Ferrari 599XX Evo                            23.12.2021
 Aston Martin Victor                          13.01.2022
 
 ----------Upcoming----------
@@ -21,6 +21,7 @@ Ford Shelby GT350R                22         17.02.2022
 BMW M4 GTS                        31         25.02.2022
 Italdesign ZeroUno                31         14.04.2022
 Lotus Elise Sprint 220            27         14.04.2022
+Ferrari 488 GTB                   37         05.05.2022
 Vencer Sarthe                     27         05.05.2022
 McLaren P1                        32         12.05.2022
 Artega Scalo Superelletra         30         02.06.2022
@@ -46,7 +47,6 @@ Nissan GT-R Nismo                 60         23.02.2023
 
 ----------Due----------
 Car Name                      AVG Weeks       Next Date
-Ferrari 488 GTB                   32         04.06.2021
 Porsche 911 GT1 Evolution         27         28.09.2021
 Ferrari F12tdf                    26         01.10.2021
 Lamborghini Centenario            32         17.11.2021
