@@ -17,7 +17,6 @@ Bentley Continental GT3                      17.02.2022
 
 ----------Upcoming----------
 Car Name                      AVG Weeks       Next Date
-BMW M4 GTS                        31         25.02.2022
 Italdesign ZeroUno                31         14.04.2022
 Lotus Elise Sprint 220            27         14.04.2022
 Ferrari 488 GTB                   37         05.05.2022
@@ -40,6 +39,7 @@ Icona Vulcano Titanium            44         22.09.2022
 Ferrari J50                       43         06.10.2022
 Ferrari F12tdf                    35         13.10.2022
 Porsche 911 GT1 Evolution         36         13.10.2022
+Arrinera Hussarya 33              37         10.11.2022
 Ferrari F40                       46         15.12.2022
 Ferrari FXX K                     51         29.12.2022
 Infiniti Project Black S          49         29.12.2022
@@ -49,9 +49,9 @@ Nissan GT-R Nismo                 60         23.02.2023
 ----------Due----------
 Car Name                      AVG Weeks       Next Date
 Lamborghini Centenario            32         17.11.2021
-Arrinera Hussarya 33              34         17.12.2021
 Ford GT                           33         17.12.2021
 SCG 003S                          29         29.12.2021
 Mazda Furai                       28         13.01.2022
 Aston Martin Vulcan               38         10.02.2022
 Ford Shelby GT350R                22         17.02.2022
+BMW M4 GTS                        31         25.02.2022
