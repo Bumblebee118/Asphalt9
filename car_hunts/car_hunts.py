@@ -32,7 +32,7 @@ def main():
 
 def parse_input(dictionary):
     """Parses the csv file and creates an entry in the dictionary for every car that had a hunt
-    with the accordign Car object as a value.
+    with the according Car object as a value.
 
     :param dictionary: The dictionary to collect the cars.
     """
