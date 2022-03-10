@@ -38,7 +38,7 @@ def parse_input(dictionary):
     """
     with open("car_hunts.csv", "r", encoding="utf-8") as csv_file:
         for line in csv_file:
-            elements = list(filter(lambda x: x != "", line.strip('\n').split(";")))
+            elements = list(filter(lambda x: x != "", line.strip('\n').split(",")))
             date = datetime.strptime(elements[0], DATE_FORMAT)
             for car_name in elements[1:]:
                 if car_name in dictionary:
