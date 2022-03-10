@@ -1,7 +1,6 @@
 ----------Appeared once----------
 Car Name                                           Date
 Porsche 911 Targa 4S                         20.03.2020
-Ferrari Roma                                 14.05.2021
 Apex AP-0                                    17.06.2021
 Acura 2017 NSX GT3 EVO                       05.08.2021
 Ford GT MK II                                02.09.2021
@@ -13,6 +12,7 @@ Chevrolet Corvette C7.R                      02.12.2021
 Ferrari 599XX Evo                            23.12.2021
 Aston Martin Victor                          13.01.2022
 Bentley Continental GT3                      17.02.2022
+McLaren Elva                                 10.03.2022
 
 ----------Upcoming----------
 Car Name                      AVG Weeks       Next Date
@@ -42,6 +42,7 @@ Porsche 911 GT1 Evolution         36         13.10.2022
 Arrinera Hussarya 33              37         10.11.2022
 Ferrari F40                       46         15.12.2022
 Ferrari FXX K                     51         29.12.2022
+Ferrari Roma                      42         29.12.2022
 Infiniti Project Black S          49         29.12.2022
 Acura 2017 NSX                    70         23.02.2023
 Nissan GT-R Nismo                 60         23.02.2023
