@@ -20,7 +20,6 @@ Italdesign ZeroUno                31         14.04.2022
 Lotus Elise Sprint 220            27         14.04.2022
 Ferrari 488 GTB                   37         05.05.2022
 Vencer Sarthe                     27         05.05.2022
-McLaren P1                        32         12.05.2022
 Artega Scalo Superelletra         30         02.06.2022
 Dodge Viper ACR                   35         02.06.2022
 Pininfarina H2 Speed              35         16.06.2022
@@ -37,6 +36,7 @@ TVR Griffith                      35         15.09.2022
 Icona Vulcano Titanium            44         22.09.2022
 Aston Martin V12 Speedster        30         29.09.2022
 Ferrari J50                       43         06.10.2022
+McLaren P1                        29         06.10.2022
 Ferrari F12tdf                    35         13.10.2022
 Porsche 911 GT1 Evolution         36         13.10.2022
 Arrinera Hussarya 33              37         10.11.2022
