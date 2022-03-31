@@ -40,6 +40,7 @@ McLaren P1                        29         06.10.2022
 Ferrari F12tdf                    35         13.10.2022
 Porsche 911 GT1 Evolution         36         13.10.2022
 Arrinera Hussarya 33              37         10.11.2022
+BMW M4 GTS                        32         10.11.2022
 SCG 003S                          33         10.11.2022
 Ferrari F40                       46         15.12.2022
 Ferrari FXX K                     51         29.12.2022
@@ -55,4 +56,3 @@ Ford GT                           33         17.12.2021
 Mazda Furai                       28         13.01.2022
 Aston Martin Vulcan               38         10.02.2022
 Ford Shelby GT350R                22         17.02.2022
-BMW M4 GTS                        31         25.02.2022
