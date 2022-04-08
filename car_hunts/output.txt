@@ -1,64 +1,64 @@
 ----------Appeared once----------
-Car Name                                           Date
-Porsche 911 Targa 4S                         20.03.2020
-Lamborghini Gallardo LP 560-4                22.01.2021
-Porsche 718 Cayman GT4 Clubsport               19.02.2021
-Chevrolet Corvette Stingray                  12.03.2021
-Ferrari Enzo Ferrari                         07.05.2021
-Apex AP-0                                    18.06.2021
-Apollo IE                                    02.07.2021
-Acura 2017 NSX GT3 EVO                       06.08.2021
-Lamborghini Murcielago LP 640 Roadster               27.08.2021
-Ford GT MK II                                03.09.2021
-Drako GTE                                    22.10.2021
-Nio EP9                                      22.10.2021
-ATS Automobili Corsa RRTurbo                 12.11.2021
-Chevrolet Corvette C7.R                      03.12.2021
-Aston Martin Victor                          14.01.2022
-McLaren Elva                                 11.03.2022
+Car Name                                                     Date
+Porsche 911 Targa 4S                                   20.03.2020
+Lamborghini Gallardo LP 560-4                          22.01.2021
+Porsche 718 Cayman GT4 Clubsport                       19.02.2021
+Chevrolet Corvette Stingray                            12.03.2021
+Ferrari Enzo Ferrari                                   07.05.2021
+Apex AP-0                                              18.06.2021
+Apollo IE                                              02.07.2021
+Acura 2017 NSX GT3 EVO                                 06.08.2021
+Lamborghini Murcielago LP 640 Roadster                 27.08.2021
+Ford GT MK II                                          03.09.2021
+Drako GTE                                              22.10.2021
+Nio EP9                                                22.10.2021
+ATS Automobili Corsa RRTurbo                           12.11.2021
+Chevrolet Corvette C7.R                                03.12.2021
+Aston Martin Victor                                    14.01.2022
+McLaren Elva                                           11.03.2022
 
 ----------Upcoming----------
-Car Name                      AVG Weeks       Next Date
-Italdesign ZeroUno                31         15.04.2022
-Lotus Elise Sprint 220            27         15.04.2022
-Vencer Sarthe                     26         28.04.2022
-Ferrari 488 GTB                   37         06.05.2022
-Dodge Viper ACR                   35         03.06.2022
-Artega Scalo Superelletra         31         10.06.2022
-Pininfarina H2 Speed              35         17.06.2022
-Honda Civic Type-R                31         01.07.2022
-Porsche Taycan Turbo S            40         01.07.2022
-Apollo N                          36         07.07.2022
-Ginetta G60                       41         08.07.2022
-Maserati Alfieri                  45         08.07.2022
-Aston Martin Vantage GT12         42         05.08.2022
-Jaguar F-Type SVR                 43         05.08.2022
-Chevrolet Corvette Grand Sport    36         26.08.2022
-Lamborghini Aventador SV Coupe    49         26.08.2022
-Ferrari 599XX Evo                 36         02.09.2022
-Dodge Viper GTS                   56         09.09.2022
-Ferrari F40                       33         16.09.2022
-TVR Griffith                      35         16.09.2022
-Icona Vulcano Titanium            44         23.09.2022
-Aston Martin V12 Speedster        31         07.10.2022
-Bentley Continental GT3           33         07.10.2022
-Ferrari J50                       43         07.10.2022
-McLaren P1                        29         07.10.2022
-Ferrari F12tdf                    35         14.10.2022
-Porsche 911 GT1 Evolution         36         14.10.2022
-Arrinera Hussarya 33              37         11.11.2022
-BMW M4 GTS                        32         11.11.2022
-SCG 003S                          33         11.11.2022
-Ferrari FXX K                     51         30.12.2022
-Infiniti Project Black S          49         30.12.2022
-Ferrari Roma                      43         06.01.2023
-Acura 2017 NSX                    70         24.02.2023
-Nissan GT-R Nismo                 60         24.02.2023
+Car Name                                AVG Weeks       Next Date
+Italdesign ZeroUno                          31         15.04.2022
+Lotus Elise Sprint 220                      27         15.04.2022
+Vencer Sarthe                               26         28.04.2022
+Ferrari 488 GTB                             37         06.05.2022
+Dodge Viper ACR                             35         03.06.2022
+Artega Scalo Superelletra                   31         10.06.2022
+Pininfarina H2 Speed                        35         17.06.2022
+Honda Civic Type-R                          31         01.07.2022
+Porsche Taycan Turbo S                      40         01.07.2022
+Apollo N                                    36         07.07.2022
+Ginetta G60                                 41         08.07.2022
+Maserati Alfieri                            45         08.07.2022
+Aston Martin Vantage GT12                   42         05.08.2022
+Jaguar F-Type SVR                           43         05.08.2022
+Chevrolet Corvette Grand Sport              36         26.08.2022
+Lamborghini Aventador SV Coupe              49         26.08.2022
+Ferrari 599XX Evo                           36         02.09.2022
+Dodge Viper GTS                             56         09.09.2022
+Ferrari F40                                 33         16.09.2022
+TVR Griffith                                35         16.09.2022
+Icona Vulcano Titanium                      44         23.09.2022
+Aston Martin V12 Speedster                  31         07.10.2022
+Bentley Continental GT3                     33         07.10.2022
+Ferrari J50                                 43         07.10.2022
+McLaren P1                                  29         07.10.2022
+Ferrari F12tdf                              35         14.10.2022
+Porsche 911 GT1 Evolution                   36         14.10.2022
+Arrinera Hussarya 33                        37         11.11.2022
+BMW M4 GTS                                  32         11.11.2022
+SCG 003S                                    33         11.11.2022
+Ford GT                                     38         29.12.2022
+Ferrari FXX K                               51         30.12.2022
+Infiniti Project Black S                    49         30.12.2022
+Ferrari Roma                                43         06.01.2023
+Acura 2017 NSX                              70         24.02.2023
+Nissan GT-R Nismo                           60         24.02.2023
 
 ----------Due----------
-Car Name                      AVG Weeks       Next Date
-Lamborghini Centenario            32         19.11.2021
-Ford GT                           33         17.12.2021
-Mazda Furai                       28         14.01.2022
-Aston Martin Vulcan               38         11.02.2022
-Ford Shelby GT350R                22         18.02.2022
+Car Name                                AVG Weeks       Next Date
+Lamborghini Centenario                      32         19.11.2021
+Mazda Furai                                 28         14.01.2022
+Aston Martin Vulcan                         38         11.02.2022
+Ford Shelby GT350R                          22         18.02.2022

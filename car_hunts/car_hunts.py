@@ -83,21 +83,21 @@ def create_output(cars_due, cars_once, cars_upcoming):
     approximate date can be calculated.
     """
     print("----------Appeared once----------")
-    print(f"{'Car Name' : <30}{'' : ^10}{'Date' : >15}")
+    print(f"{'Car Name' : <40}{'' : ^10}{'Date' : >15}")
     for car in sorted(cars_once, key=lambda x: x.dates[0]):
-        print(f"{car.name : <30}{'': ^10}{car.dates[0].strftime(DATE_FORMAT) : >15}")
+        print(f"{car.name : <40}{'': ^10}{car.dates[0].strftime(DATE_FORMAT) : >15}")
     print()
 
     print("----------Upcoming----------")
-    print(f"{'Car Name' : <30}{'AVG Weeks' : ^10}{'Next Date' : >15}")
+    print(f"{'Car Name' : <40}{'AVG Weeks' : ^10}{'Next Date' : >15}")
     for car in sorted(cars_upcoming, key=lambda x: x.next_hunt):
-        print(f"{car.name : <30}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
+        print(f"{car.name : <40}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
     print()
 
     print("----------Due----------")
-    print(f"{'Car Name' : <30}{'AVG Weeks' : ^10}{'Next Date' : >15}")
+    print(f"{'Car Name' : <40}{'AVG Weeks' : ^10}{'Next Date' : >15}")
     for car in sorted(cars_due, key=lambda x: x.next_hunt):
-        print(f"{car.name : <30}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
+        print(f"{car.name : <40}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
 
 
 if __name__ == '__main__':
