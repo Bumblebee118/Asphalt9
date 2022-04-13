@@ -2,7 +2,6 @@
 Car Name                                                     Date
 Porsche 911 Targa 4S                                   20.03.2020
 Lamborghini Gallardo LP 560-4                          22.01.2021
-Porsche 718 Cayman GT4 Clubsport                       19.02.2021
 Chevrolet Corvette Stingray                            12.03.2021
 Ferrari Enzo Ferrari                                   07.05.2021
 Apex AP-0                                              18.06.2021
@@ -55,6 +54,7 @@ Infiniti Project Black S                    49         30.12.2022
 Ferrari Roma                                43         06.01.2023
 Acura 2017 NSX                              70         24.02.2023
 Nissan GT-R Nismo                           60         24.02.2023
+Porsche 718 Cayman GT4 Clubsport            59         01.06.2023
 
 ----------Due----------
 Car Name                                AVG Weeks       Next Date
