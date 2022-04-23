@@ -6,7 +6,6 @@ Chevrolet Corvette Stingray                            12.03.2021
 Ferrari Enzo Ferrari                                   07.05.2021
 Apex AP-0                                              18.06.2021
 Apollo IE                                              02.07.2021
-Acura 2017 NSX GT3 EVO                                 06.08.2021
 Lamborghini Murcielago LP 640 Roadster                 27.08.2021
 Ford GT MK II                                          03.09.2021
 Drako GTE                                              22.10.2021
@@ -18,8 +17,6 @@ McLaren Elva                                           11.03.2022
 
 ----------Upcoming----------
 Car Name                                AVG Weeks       Next Date
-Italdesign ZeroUno                          31         15.04.2022
-Lotus Elise Sprint 220                      27         15.04.2022
 Vencer Sarthe                               26         28.04.2022
 Ferrari 488 GTB                             37         06.05.2022
 Dodge Viper ACR                             35         03.06.2022
@@ -48,6 +45,7 @@ Porsche 911 GT1 Evolution                   36         14.10.2022
 Arrinera Hussarya 33                        37         11.11.2022
 BMW M4 GTS                                  32         11.11.2022
 SCG 003S                                    33         11.11.2022
+Acura 2017 NSX GT3 EVO                      36         29.12.2022
 Ford GT                                     38         29.12.2022
 Ferrari FXX K                               51         30.12.2022
 Infiniti Project Black S                    49         30.12.2022
@@ -62,3 +60,5 @@ Lamborghini Centenario                      32         19.11.2021
 Mazda Furai                                 28         14.01.2022
 Aston Martin Vulcan                         38         11.02.2022
 Ford Shelby GT350R                          22         18.02.2022
+Italdesign ZeroUno                          31         15.04.2022
+Lotus Elise Sprint 220                      27         15.04.2022
