@@ -14,10 +14,10 @@ ATS Automobili Corsa RRTurbo                           12.11.2021
 Chevrolet Corvette C7.R                                03.12.2021
 Aston Martin Victor                                    14.01.2022
 McLaren Elva                                           11.03.2022
+Bolwell MK X Nagari 500                                28.04.2022
 
 ----------Upcoming----------
 Car Name                                AVG Weeks       Next Date
-Vencer Sarthe                               26         28.04.2022
 Ferrari 488 GTB                             37         06.05.2022
 Dodge Viper ACR                             35         03.06.2022
 Artega Scalo Superelletra                   31         10.06.2022
@@ -62,3 +62,4 @@ Aston Martin Vulcan                         38         11.02.2022
 Ford Shelby GT350R                          22         18.02.2022
 Italdesign ZeroUno                          31         15.04.2022
 Lotus Elise Sprint 220                      27         15.04.2022
+Vencer Sarthe                               26         28.04.2022
