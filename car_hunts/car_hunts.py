@@ -2,102 +2,84 @@
 """
 
 from datetime import datetime, timedelta
-from dataclasses import dataclass
+import pandas as pd
 
 DATE_FORMAT = "%d.%m.%Y"
 
-
-@dataclass
-class Car:
-    """Simple dataclass to bundle data such as a cars name, dates of its hunts.
-    """
-    name: str
-    dates: [datetime]
-    next_hunt: datetime = datetime.today()
-    avg_weeks: int = 0
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
 
 
 def main():
     """Main method that calls all the sub-methods.
     """
-    dictionary = {}
-    parse_input(dictionary)
+    dataframe = parse_input()
 
-    cars_due = []
-    cars_upcoming = []
-    cars_once = []
-    sort_data(cars_due, cars_once, cars_upcoming, dictionary)
-    create_output(cars_due, cars_once, cars_upcoming)
+    cars_due = {}
+    cars_upcoming = {}
+    cars_once = {}
+    sort_data(cars_due, cars_once, cars_upcoming, dataframe)
+    print(pd.DataFrame(cars_once).transpose().sort_values(by=0)
+          .rename(columns={0: "Last Occurrence"}))
+    print()
+    print(pd.DataFrame(cars_upcoming).transpose().sort_values(by=1)
+          .rename(columns={0: "Avg Weeks", 1: "Next Occurrence"}))
+    print()
+    print(pd.DataFrame(cars_due).transpose().sort_values(by=1)
+          .rename(columns={0: "Avg Weeks", 1: "Supposed Occurrence"}))
 
 
-def parse_input(dictionary):
+def parse_input() -> pd.DataFrame:
     """Parses the csv file and creates an entry in the dictionary for every car that had a hunt
     with the according Car object as a value.
 
-    :param dictionary: The dictionary to collect the cars.
+    :rtype: The dataframe with all the cars and their dates
     """
-    with open("car_hunts.csv", "r", encoding="utf-8") as csv_file:
-        for line in csv_file:
-            elements = list(filter(lambda x: x != "", line.strip('\n').split(",")))
-            date = datetime.strptime(elements[0], DATE_FORMAT)
-            for car_name in elements[1:]:
-                if car_name in dictionary:
-                    dictionary[car_name].dates.append(date)
-                else:
-                    dictionary[car_name] = Car(car_name, [date])
+    dataframe = pd.read_csv("car_hunts.csv").fillna("")
+    cars = set(dataframe["Car1"].unique())
+    cars.update(set(dataframe["Car2"].unique()))
+    cars.update(set(dataframe["Car3"].unique()))
+    cars.remove("")
+    cars = list(cars)
+    dictionary = {}
+    for car in cars:
+        occurrences = list(dataframe[dataframe["Car1"] == car].index.values)
+        occurrences.extend(x for x in dataframe[dataframe["Car2"] == car].index.values)
+        occurrences.extend(x for x in dataframe[dataframe["Car3"] == car].index.values)
+        occurrences.sort()
+        dictionary[car] = [datetime.strptime(dataframe.iloc[x].Date, DATE_FORMAT)
+                           for x in occurrences]
+    return pd.DataFrame.from_dict(dictionary, orient='index')
 
 
-def sort_data(cars_due, cars_once, cars_upcoming, dictionary):
+def sort_data(cars_due, cars_once, cars_upcoming, dataframe):
     """Sorts the cars into the three categories.
 
     :param cars_due: List of all cars that should have had a hunt already.
     :param cars_once: List of all cars that had only one hunt.
     :param cars_upcoming: List of all cars that will probably have a hunt in the future and the
     approximate date can be calculated.
-    :param dictionary: The dictionary containing all the cars.
+    :param dataframe: The dataframe containing all the cars.
     """
-    for _, car in sorted(dictionary.items()):
-        if len(car.dates) > 1:
+    for row in dataframe.itertuples():
+        last_date_idx = [idx for idx, val in reversed(list(enumerate(row))) if val is not
+                         pd.NaT][0]
+        if last_date_idx > 1:  # This means only one date is in the dataframe
             durations = 0
-            for i in range(len(car.dates) - 1):
-                days = abs((car.dates[i] - car.dates[i + 1]).days)
+            for i in range(1, last_date_idx):
+                days = abs((row[i] - row[i + 1]).days)
                 durations += (days / 7)
 
-            car.avg_weeks = int(durations / (len(car.dates) - 1))
-            car.next_hunt = car.dates[-1] + timedelta(weeks=car.avg_weeks)
+            avg_weeks = int(durations / (last_date_idx - 1))
+            next_hunt = row[last_date_idx] + timedelta(weeks=avg_weeks)
 
-            if car.next_hunt < datetime.today():
-                cars_due.append(car)
+            if next_hunt < datetime.today():
+                cars_due[row[0]] = [avg_weeks, next_hunt]
             else:
-                cars_upcoming.append(car)
+                cars_upcoming[row[0]] = [avg_weeks, next_hunt]
         else:
-            cars_once.append(car)
-
-
-def create_output(cars_due, cars_once, cars_upcoming):
-    """Prints the different categories in a tabular way.
-
-    :param cars_due: List of all cars that should have had a hunt already.
-    :param cars_once: List of all cars that had only one hunt.
-    :param cars_upcoming: List of all cars that will probably have a hunt in the future and the
-    approximate date can be calculated.
-    """
-    print("----------Appeared once----------")
-    print(f"{'Car Name' : <40}{'' : ^10}{'Date' : >15}")
-    for car in sorted(cars_once, key=lambda x: x.dates[0]):
-        print(f"{car.name : <40}{'': ^10}{car.dates[0].strftime(DATE_FORMAT) : >15}")
-    print()
-
-    print("----------Upcoming----------")
-    print(f"{'Car Name' : <40}{'AVG Weeks' : ^10}{'Next Date' : >15}")
-    for car in sorted(cars_upcoming, key=lambda x: x.next_hunt):
-        print(f"{car.name : <40}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
-    print()
-
-    print("----------Due----------")
-    print(f"{'Car Name' : <40}{'AVG Weeks' : ^10}{'Next Date' : >15}")
-    for car in sorted(cars_due, key=lambda x: x.next_hunt):
-        print(f"{car.name : <40}{car.avg_weeks : ^10}{car.next_hunt.strftime(DATE_FORMAT) : >15}")
+            cars_once[row[0]] = [row[1]]
 
 
 if __name__ == '__main__':
