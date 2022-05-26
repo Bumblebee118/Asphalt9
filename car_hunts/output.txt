@@ -49,6 +49,7 @@ Ferrari FXX K                               51         30.12.2022
 Infiniti Project Black S                    49         30.12.2022
 Ferrari Roma                                43         06.01.2023
 Ferrari 488 GTB                             37         26.01.2023
+Mazda Furai                                 37         09.02.2023
 Acura 2017 NSX                              70         24.02.2023
 Nissan GT-R Nismo                           60         24.02.2023
 Dodge Viper GTS                             46         23.03.2023
@@ -58,7 +59,6 @@ Porsche 718 Cayman GT4 Clubsport            59         01.06.2023
 ----------Due----------
 Car Name                                AVG Weeks       Next Date
 Lamborghini Centenario                      32         19.11.2021
-Mazda Furai                                 28         14.01.2022
 Aston Martin Vulcan                         38         11.02.2022
 Ford Shelby GT350R                          22         18.02.2022
 Italdesign ZeroUno                          31         15.04.2022
