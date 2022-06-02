@@ -19,7 +19,6 @@ Renault TreZor                                         05.05.2022
 Car Name                                AVG Weeks       Next Date
 Dodge Viper ACR                             35         03.06.2022
 Artega Scalo Superelletra                   31         10.06.2022
-Pininfarina H2 Speed                        35         17.06.2022
 Honda Civic Type-R                          31         01.07.2022
 Porsche Taycan Turbo S                      40         01.07.2022
 Apollo N                                    36         07.07.2022
@@ -48,6 +47,7 @@ Ferrari FXX K                               51         30.12.2022
 Infiniti Project Black S                    49         30.12.2022
 Ferrari Roma                                43         06.01.2023
 Ferrari 488 GTB                             37         26.01.2023
+Pininfarina H2 Speed                        34         26.01.2023
 Mazda Furai                                 37         09.02.2023
 Acura 2017 NSX                              70         24.02.2023
 Nissan GT-R Nismo                           60         24.02.2023
