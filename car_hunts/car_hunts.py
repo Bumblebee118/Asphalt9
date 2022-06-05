@@ -3,6 +3,7 @@
 
 from datetime import datetime, timedelta
 import pandas as pd
+import matplotlib.pyplot as plt
 
 DATE_FORMAT = "%d.%m.%Y"
 
@@ -62,14 +63,20 @@ def sort_data(cars_due, cars_once, cars_upcoming, dataframe):
     approximate date can be calculated.
     :param dataframe: The dataframe containing all the cars.
     """
+    fig = plt.figure()
+    fig.set_figwidth(15)
+    fig.set_figheight(25)
     for row in dataframe.itertuples():
         last_date_idx = [idx for idx, val in reversed(list(enumerate(row))) if val is not
                          pd.NaT][0]
         if last_date_idx > 1:  # This means only one date is in the dataframe
             durations = 0
+            data = []
             for i in range(1, last_date_idx):
                 days = abs((row[i] - row[i + 1]).days)
                 durations += (days / 7)
+                data.append(int(durations / i))
+            plt.plot([x + 2 for x in range(0, len(data))], data, label=row[0])
 
             avg_weeks = int(durations / (last_date_idx - 1))
             next_hunt = row[last_date_idx] + timedelta(weeks=avg_weeks)
@@ -80,6 +87,13 @@ def sort_data(cars_due, cars_once, cars_upcoming, dataframe):
                 cars_upcoming[row[0]] = [avg_weeks, next_hunt]
         else:
             cars_once[row[0]] = [row[1]]
+
+    plt.legend()
+    plt.xlabel("# of car hunts that contributed to calculate the average amount of weeks")
+    plt.ylabel("# of weeks between the car hunts")
+    plt.title("Development of the timespans between the car hunts.")
+    plt.show()
+    fig.savefig("development.png")
 
 
 if __name__ == '__main__':
