@@ -16,46 +16,46 @@ Arash AF10                                  2022-06-30
                                  Avg Weeks Next Occurrence
 Jaguar F-Type SVR                       43      2022-08-05
 Aston Martin Vantage GT12               42      2022-08-05
-Chevrolet Corvette Grand Sport          36      2022-08-26
 Lamborghini Aventador SV Coupe          49      2022-08-26
+Chevrolet Corvette Grand Sport          36      2022-08-26
 Ferrari 599XX Evo                       36      2022-09-02
 TVR Griffith                            35      2022-09-16
 Ferrari F40                             33      2022-09-16
 Icona Vulcano Titanium                  44      2022-09-23
-Ferrari J50                             43      2022-10-07
 Bentley Continental GT3                 33      2022-10-07
 McLaren P1                              29      2022-10-07
+Ferrari J50                             43      2022-10-07
 Aston Martin V12 Speedster              31      2022-10-07
-Porsche 911 GT1 Evolution               36      2022-10-14
 Ferrari F12tdf                          35      2022-10-14
+Porsche 911 GT1 Evolution               36      2022-10-14
+Arrinera Hussarya 33                    37      2022-11-11
 BMW M4 GTS                              32      2022-11-11
 SCG 003S                                33      2022-11-11
-Arrinera Hussarya 33                    37      2022-11-11
 Apex AP-0                               26      2022-12-22
-Ford GT                                 38      2022-12-29
 Acura 2017 NSX GT3 EVO                  36      2022-12-29
+Ford GT                                 38      2022-12-29
 Infiniti Project Black S                49      2022-12-30
 Ferrari FXX K                           51      2022-12-30
 Ferrari Roma                            43      2023-01-06
+Ford Shelby GT350R                      27      2023-01-19
 Pininfarina H2 Speed                    34      2023-01-26
 Ferrari 488 GTB                         37      2023-01-26
 Drako GTE                               33      2023-02-02
 Mazda Furai                             37      2023-02-09
-Acura 2017 NSX                          70      2023-02-24
 Nissan GT-R Nismo                       60      2023-02-24
+Acura 2017 NSX                          70      2023-02-24
 Porsche Taycan Turbo S                  38      2023-03-02
 Dodge Viper GTS                         46      2023-03-23
 Apollo IE                               46      2023-04-13
-Ford GT MK II                           43      2023-05-04
 Maserati Alfieri                        44      2023-05-04
+Ford GT MK II                           43      2023-05-04
 Porsche 718 Cayman GT4 Clubsport        59      2023-06-01
 
                           Avg Weeks Supposed Occurrence
 Lamborghini Centenario           32          2021-11-19
 Aston Martin Vulcan              38          2022-02-11
-Ford Shelby GT350R               22          2022-02-18
-Lotus Elise Sprint 220           27          2022-04-15
 Italdesign ZeroUno               31          2022-04-15
+Lotus Elise Sprint 220           27          2022-04-15
 Vencer Sarthe                    26          2022-04-28
 Dodge Viper ACR                  35          2022-06-03
 Artega Scalo Superelletra        31          2022-06-10
