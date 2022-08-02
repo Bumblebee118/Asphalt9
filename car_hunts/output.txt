@@ -22,34 +22,35 @@ Ferrari 599XX Evo                       36      2022-09-02
 TVR Griffith                            35      2022-09-16
 Ferrari F40                             33      2022-09-16
 Icona Vulcano Titanium                  44      2022-09-23
+Bentley Continental GT3                 33      2022-10-07
+Aston Martin V12 Speedster              31      2022-10-07
 McLaren P1                              29      2022-10-07
 Ferrari J50                             43      2022-10-07
-Aston Martin V12 Speedster              31      2022-10-07
-Bentley Continental GT3                 33      2022-10-07
-Porsche 911 GT1 Evolution               36      2022-10-14
 Ferrari F12tdf                          35      2022-10-14
+Porsche 911 GT1 Evolution               36      2022-10-14
 SCG 003S                                33      2022-11-11
 Arrinera Hussarya 33                    37      2022-11-11
 BMW M4 GTS                              32      2022-11-11
 Apex AP-0                               26      2022-12-22
-Acura 2017 NSX GT3 EVO                  36      2022-12-29
 Ford GT                                 38      2022-12-29
+Acura 2017 NSX GT3 EVO                  36      2022-12-29
 Infiniti Project Black S                49      2022-12-30
 Ferrari FXX K                           51      2022-12-30
 Ferrari Roma                            43      2023-01-06
 Ford Shelby GT350R                      27      2023-01-19
-Pininfarina H2 Speed                    34      2023-01-26
 Ferrari 488 GTB                         37      2023-01-26
+Pininfarina H2 Speed                    34      2023-01-26
 Drako GTE                               33      2023-02-02
 Mazda Furai                             37      2023-02-09
-Nissan GT-R Nismo                       60      2023-02-24
 Acura 2017 NSX                          70      2023-02-24
+Nissan GT-R Nismo                       60      2023-02-24
 Porsche Taycan Turbo S                  38      2023-03-02
-Italdesign ZeroUno                      35      2023-03-23
 Dodge Viper GTS                         46      2023-03-23
+Italdesign ZeroUno                      35      2023-03-23
 Apollo IE                               46      2023-04-13
-Maserati Alfieri                        44      2023-05-04
 Ford GT MK II                           43      2023-05-04
+Maserati Alfieri                        44      2023-05-04
+Ginetta G60                             41      2023-05-11
 Porsche 718 Cayman GT4 Clubsport        59      2023-06-01
 
                           Avg Weeks Supposed Occurrence
@@ -61,4 +62,3 @@ Dodge Viper ACR                  35          2022-06-03
 Artega Scalo Superelletra        31          2022-06-10
 Honda Civic Type-R               31          2022-07-01
 Apollo N                         36          2022-07-07
-Ginetta G60                      41          2022-07-08
